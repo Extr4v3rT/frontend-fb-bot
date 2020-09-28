@@ -35,7 +35,7 @@ onSubmit(e) {
 
     console.log(user);
 
-    axios.post('http://localhost:8080/home', user)
+    axios.post('https://botfbmeblot.herokuapp.com/home', user)
         .then(res => console.log(res.data))
 
     this.setState({
