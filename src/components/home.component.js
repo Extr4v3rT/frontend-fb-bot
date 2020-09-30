@@ -58,7 +58,7 @@ onSubmit(e) {
                     </label>
                     <label>
                         Hasło:
-                        <input type="text" value={this.state.password} onChange={this.onChangePassword} name="password" />
+                        <input type="password" value={this.state.password} onChange={this.onChangePassword} name="password" />
                     </label>
                     <input type="submit" value="Wyślij" />
                 </form>
