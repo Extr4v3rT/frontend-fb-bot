@@ -35,7 +35,7 @@ onSubmit(e) {
 
     console.log(user);
 
-    axios.post('https://botfbmeblot.herokuapp.com/home', user)
+    axios.post('http://vps-d8fdff43.vps.ovh.net:8080/home', user)
         .then(res => console.log(res.data))
 
     this.setState({
